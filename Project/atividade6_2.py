@@ -35,13 +35,13 @@ find1 = False
 find2 = False
 
 while(find1==False):
-    nome1 = input('Digite o nome do pokemon 1: ')
+    nome1 = input('Digite o nome do pokemon 1: ').lower
     achar_pokemon(nome1)
     find1 = achar_pokemon(nome1)
 
 while(find2==False):
-    nome2 = input('Digite o nome do pokemon 2: ')
-    achar_pokemon(nome1)
+    nome2 = input('Digite o nome do pokemon 2: ').lower
+    achar_pokemon(nome2)
     find2 = achar_pokemon(nome2)
 
 
